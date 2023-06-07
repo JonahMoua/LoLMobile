@@ -1,7 +1,8 @@
 import discord
+import config
 
 def run_bot():
-    token = 'MTExNjA5MTAzMTA1ODkxNTQ1OQ.GQ0PWv.oGKGgQocdUvN4tOjHH0hV9gR2WCqnQYpsyAJ6Q'
+    token = config.token
     client = discord.Client()
 
 
