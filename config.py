@@ -1,2 +1,0 @@
-# .gitignore 
-token = 'MTExNjA5MTAzMTA1ODkxNTQ1OQ.G2wKMZ.3GQdv7TjZTKzyA833xxwTW6dGWQRrUp006niko'
