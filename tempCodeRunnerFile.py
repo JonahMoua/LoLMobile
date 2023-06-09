@@ -1,2 +1,2 @@
 
-    bot.get_match_data()
+    bot.get_puuid()
