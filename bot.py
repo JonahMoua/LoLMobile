@@ -1,7 +1,7 @@
 import discord
 import config
 import requests
-
+import riot
 class Bot():
     def __init__(self) -> None:
         self.bot = []
@@ -10,10 +10,8 @@ class Bot():
         token = config.token
         client = discord.Client()
 
-
         @client.event
         async def on_ready():
             print(f'{client.user} is now running')
-            print(requests.get(config.riotapi))
         
         client.run(token)
